@@ -46,19 +46,6 @@ cp triage/reference.md ~/.claude/skills/triage/
 
 Add the Arcade MCP Gateway to your Claude Code MCP configuration. Create or edit `~/.config/claude/mcp.json`:
 
-```json
-{
-  "mcpServers": {
-    "arcade-gateway": {
-      "command": "npx",
-      "args": ["-y", "@arcade-ai/mcp-server-arcade"],
-      "env": {
-        "ARCADE_API_KEY": "your-arcade-api-key-here"
-      }
-    }
-  }
-}
-```
 
 **Get your Arcade API key:**
 1. Go to https://arcade.dev
