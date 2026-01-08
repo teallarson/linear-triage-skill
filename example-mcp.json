@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "arcade-gateway": {
+          "type": "http",
+          "url": "https://api.arcade.dev/mcp/gw_37zDQGBR2gQgpLuK3sctzizI6CA",
+          "headers": {
+            "Authorization": "Bearer ${ARCADE_API_KEY}",
+            "Arcade-User-ID": "${ARCADE_USER_ID}"
+          }
+        }
+  }
+}
